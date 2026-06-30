@@ -1,5 +1,7 @@
 
-A lightweight operating system built from scratch in **C** and **x86 Assembly** — a hands-on journey into bootloader, kernel, memory management, interrupt handling, device drivers, and a shell.
+A lightweight operating system built from scratch in **C** and **x86 Assembly** .
+
+ Diving into bootloader, kernel, memory management, interrupt handling, device drivers, and a shell.
 
 # #OS
 
@@ -8,29 +10,76 @@ A lightweight operating system built from scratch in **C** and **x86 Assembly** 
 > *What could possibly go wrong?*
 
 ---
-## 🚀 Project Goals
 
-- Build a custom bootloader
-- Develop a minimal kernel
-- Implement VGA text output
-- Add keyboard input support
-- Create a simple command-line shell
-- Implement interrupt handling
-- Explore memory management
-- Add process scheduling and multitasking
-- Develop a basic file system
-- Implement system calls
+## ⚙️ How a Computer Boots
+
+When you turn on a computer:
+Power ON
+↓
+BIOS starts
+↓
+Reads first 512 bytes from boot device
+↓
+Loads it into memory at 0x7C00
+↓
+Executes it (our bootloader)
+
+---
+
+## 📁 Project Structure
+
+```
+MinOS/
+│
+├── boot/
+│ └── boot.asm # Bootloader (entry point)
+│
+├── kernel/
+│ ├── kernel.asm # Early kernel experiments
+│ └── kernel.c # Future C kernel
+│
+├── build/
+│ ├── boot.bin
+│ ├── kernel.bin
+│ └── os-image.bin
+│
+├── linker.ld # Linker script
+├── Makefile # Build system
+└── README.md
+```
+
+---
+
+## 🛠️ Tools Used
+
+- NASM (Assembly compiler)
+- GCC (C compiler)
+- LD (Linker)
+- QEMU (OS emulator)
+- Make (build automation)
+- WSL (Ubuntu on Windows)
+
+  ---
+  
+## 🗺️ Roadmap
+
+- [x] Bootloader
+- [x] Bootable OS in QEMU
+- [x] BIOS screen output
+- [x] Load kernel from disk
+- [x] Switch to Protected Mode (32-bit)
+- [ ] VGA text driver
+- [ ] Keyboard driver
+- [ ] Memory management
+- [ ] Interrupt handling
+- [ ] Shell (command line)
+- [ ] File system
+- [ ] Multitasking
+- [ ] User programs
 
 ---
 
 ---
-
-## Stack
-
-`C` · `x86 Assembly` · 
-
----
-
 
 ## Core components
 
