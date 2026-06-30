@@ -1,0 +1,21 @@
+
+build/
+
+
+# Object/binary files
+*.o
+*.bin
+*.elf
+*.img
+*.iso
+
+
+*.log
+
+.vscode/
+
+*.tmp
+EOF
+
+# Temporary files
+*.swp
