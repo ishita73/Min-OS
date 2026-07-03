@@ -4,9 +4,8 @@
 ; after this phae : BIOS → Bootloader → Kernel → prints text
 
 ; ============================================
-; MinOS Kernel
-; Author: Ishita
-; Phase 2 - Kernel
+; Phase 2 -  woeking with kernel
+; loading kernel into bootload
 ; ============================================
 
 [bits 16]
