@@ -1,3 +1,6 @@
+#Makefile consists of all the compiled commands  
+
+
 # ============================================
 # MinOS Build System
 # ============================================
