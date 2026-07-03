@@ -12,7 +12,7 @@ A lightweight operating system built from scratch in **C** and **x86 Assembly** 
 ---
 
 ## ⚙️ How a Computer Boots
-
+```
 When you turn on a computer:
 Power ON
 ↓
@@ -23,7 +23,7 @@ Reads first 512 bytes from boot device
 Loads it into memory at 0x7C00
 ↓
 Executes it (our bootloader)
-
+```
 ---
 
 ## 📁 Project Structure
