@@ -1,4 +1,5 @@
- [bits 16]
+ ```
+[bits 16]
 [org 0x1000]
 
 start:
@@ -19,3 +20,4 @@ halt:
     jmp halt
 
 msg db "Hello from MinOS Kernel!", 0
+```
