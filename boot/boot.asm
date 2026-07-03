@@ -10,9 +10,7 @@
 
 
 ; ============================================
-; MinOS Bootloader
-; Author: Ishita 
-; Phase 1 - Bootloader
+; Phase 1 - writing bootloader in x86 asm
 ; ============================================
 
 [bits 16]
