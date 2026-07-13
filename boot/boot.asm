@@ -1,5 +1,5 @@
 ;  print func->disk routines -> enable A20-> GDT-> protected mode-> C kernel
-
+; Phase 1 - writing bootloader in x86 asm
 ;boot/
 ;│── boot.asm          ; Entry point
 ;│── print.asm         ; BIOS print routines
@@ -9,9 +9,7 @@
 ;│── protected.asm     ; Switch to protected mode
 
 
-; ============================================
-; Phase 1 - writing bootloader in x86 asm
-; ============================================
+
 
 [bits 16]
 [org 0x7C00]                    ;  bootloader starts  at 0x7C00
