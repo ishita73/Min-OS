@@ -2,11 +2,9 @@
 
 ; before : BIOS → Bootloader → prints text
 ; after this phae : BIOS → Bootloader → Kernel → prints text
-
-; ============================================
 ; Phase 2 -  woeking with kernel
 ; loading kernel into bootload
-; ============================================
+
 
 [bits 16]
 [org 0x1000]              ; Kernel will be loaded at memory address 0x1000
