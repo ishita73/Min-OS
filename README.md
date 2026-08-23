@@ -7,7 +7,7 @@ A lightweight operating system built from scratch in **C** and **x86 Assembly** 
 
 > *An attempt to build an operating system from scratch.*
 >
-> *What could possibly go wrong?*
+>
 
 ---
 
